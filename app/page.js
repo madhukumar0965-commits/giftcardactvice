@@ -147,7 +147,7 @@ export default function Home() {
 
       <section className={styles.hero}>
         <div className={styles.heroCopy}>
-          <SectionLabel>A CLEAR, INDEPENDENT GUIDE</SectionLabel>
+          <SectionLabel>A CLEAR GiftCardMall/MyGift, INDEPENDENT GUIDE</SectionLabel>
           <h1>GiftCardMall/MyGift, <span>made easier.</span></h1>
           <p className={styles.heroDescription}>
             Looking for your GiftCardMall balance, trying to make sense of MyGift, or wondering whether a page is genuine? Start with the basics—then follow the instructions that came with your card.
