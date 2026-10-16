@@ -20,17 +20,10 @@ export const metadata = {
     canonical: "/",
   },
   robots: {
-    index: true,
+    index: false,
     follow: true,
   },
-  openGraph: {
-    title: "Mcgift GiftCardMall/MyGift Guide: Balance / Card Help",
-    description:
-      "Plain-language, independent information about GiftCardMall and MyGift, balance checks, card questions and safe access.",
-    url: "https://giftcardactive.com",
-    siteName: "Gift Card Active",
-    type: "website",
-  },
+  
 };
 
 export default function RootLayout({ children }) {
