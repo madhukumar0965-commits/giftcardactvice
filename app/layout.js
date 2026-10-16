@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Mcgift GiftCardMall/MyGift Guide: Balance Check/ View Card",
+  title: "GiftCardMall/Mygift | Check Balance | McGift Activate",
   description:
     "Explore Mcgift GiftCardMall/MyGift information? Read independent guidance on GiftCardMall balances, MyGift card help, safe access and declined transactions.",
   metadataBase: new URL("https://giftcardactive.com"),
@@ -24,7 +24,7 @@ export const metadata = {
     follow: true,
   },
   openGraph: {
-    title: "Mcgift GiftCardMall/MyGift Guide: Balance Check/ View Card",
+    title: "GiftCardMall/Mygift | Check Balance | McGift Activate",
     description:
       "Plain-language, independent information about GiftCardMall and MyGift, balance checks, card questions and safe access.",
     url: "https://giftcardactive.com",
