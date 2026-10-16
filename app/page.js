@@ -12,6 +12,16 @@ const questions = [
       "People may use searches like “Mcgift GiftCardMall/MyGift” or “mcgift giftcardmall/mygift” when looking for GiftCardMall and MyGift information. The wording alone doesn’t identify a separate card or service. Check your own card and its packaging for the applicable issuer and instructions.",
   },
   {
+    question: "What should I know about mcgift giftcardmall/mygift?",
+    answer:
+      "“mcgift giftcardmall/mygift” is a search phrase people use to find information about GiftCardMall and MyGift. It doesn’t confirm that a page is official. Check your card or packaging for the correct instructions, and don’t enter card details on an unfamiliar website.",
+  },
+  {
+    question: "What does giftcardmall/mygift mean?",
+    answer:
+      "“giftcardmall/mygift” usually describes a search for GiftCardMall and MyGift card information. The services and steps can depend on your particular card. Use the website and phone number printed on your card or packaging rather than relying on a search result or an unsolicited link.",
+  },
+  {
     question: "How can I check my GiftCardMall balance?",
     answer:
       "Gift Card Active cannot check it for you. We’re an independent information site, not a card issuer or balance checker. For a current GiftCardMall balance, follow the address or phone number printed on your card or its packaging. Never send card numbers, PINs or security codes to this site.",
@@ -137,7 +147,7 @@ export default function Home() {
 
       <section className={styles.hero}>
         <div className={styles.heroCopy}>
-          <SectionLabel>GiftCardMall/MyGift INDEPENTDENT GUIDE</SectionLabel>
+          <SectionLabel>A CLEAR, INDEPENDENT GUIDE</SectionLabel>
           <h1>GiftCardMall/MyGift, <span>made easier.</span></h1>
           <p className={styles.heroDescription}>
             Looking for your GiftCardMall balance, trying to make sense of MyGift, or wondering whether a page is genuine? Start with the basics—then follow the instructions that came with your card.
