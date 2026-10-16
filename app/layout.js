@@ -15,9 +15,9 @@ export const metadata = {
   title: "Mcgift GiftCardMall/MyGift Guide: Balance / Card Help",
   description:
     "Looking for Mcgift GiftCardMall/MyGift information? Read independent guidance on GiftCardMall balances, MyGift card help, safe access and declined transactions.",
-  metadataBase: new URL("https://giftcardactive.com"),
+  metadataBase: new URL("https://my.giftcardactive.com"),
   alternates: {
-    canonical: "/",
+    canonical: "https://my.giftcardactive.com",
   },
   robots: {
     index: false,
