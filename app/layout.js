@@ -1,0 +1,48 @@
+import { Geist, Geist_Mono } from "next/font/google";
+import "./globals.css";
+
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
+export const metadata = {
+  title: "Mcgift GiftCardMall/MyGift Guide: Balance / Card Help",
+  description:
+    "Looking for Mcgift GiftCardMall/MyGift information? Read independent guidance on GiftCardMall balances, MyGift card help, safe access and declined transactions.",
+  metadataBase: new URL("https://giftcardactive.com"),
+  alternates: {
+    canonical: "/",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: {
+    title: "Mcgift GiftCardMall/MyGift Guide: Balance / Card Help",
+    description:
+      "Plain-language, independent information about GiftCardMall and MyGift, balance checks, card questions and safe access.",
+    url: "https://giftcardactive.com",
+    siteName: "Gift Card Active",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Mcgift GiftCardMall/MyGift Guide: Balance / Card Help",
+    description:
+      "Independent help understanding gift card balances, MyGift and safe website access.",
+  },
+};
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body>{children}</body>
+    </html>
+  );
+}
