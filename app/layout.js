@@ -20,7 +20,7 @@ export const metadata = {
     canonical: "https://my.giftcardactive.com",
   },
   robots: {
-    index: false,
+    index: true,
     follow: true,
   },
   
